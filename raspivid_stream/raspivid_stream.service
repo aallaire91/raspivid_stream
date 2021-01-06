@@ -1,0 +1,12 @@
+[Unit]
+After=default.target
+
+[Service]
+Type=simple
+ExecStart=/home/pi/raspivid_stream/raspivid_stream.sh
+RemainAfterExit=yes
+TimeoutStartSec=0
+IgnoreSIGPIPE=false
+
+[Install]
+WantedBy=default.target

@@ -1,0 +1,10 @@
+video:
+  width: 640
+  height: 480 
+  fps: 90
+  bitrate: 4000000
+netcat:
+  port: 5000
+  remote_ip: aallaire-ThinkPad-P52 
+
+

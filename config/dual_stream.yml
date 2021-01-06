@@ -1,0 +1,9 @@
+devices:
+  - 
+    name: picam0
+    config_file: picam0_stream_cfg.yml
+    ip: 10.0.0.199
+  - 
+    name: picam1
+    config_file: picam1_stream_cfg.yml 
+    ip: 10.0.0.212

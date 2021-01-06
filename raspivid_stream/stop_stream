@@ -1,0 +1,1 @@
+echo "false" > /home/pi/raspivid_stream/stream_state
